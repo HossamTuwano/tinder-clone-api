@@ -77,3 +77,4 @@ D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\refint\TinderCloneApi.dll
 D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\TinderCloneApi.pdb
 D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\TinderCloneApi.genruntimeconfig.cache
 D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\ref\TinderCloneApi.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
