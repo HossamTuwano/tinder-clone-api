@@ -1,50 +1,30 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using TinderCloneApi.Data;
-using Microsoft.AspNetCore.Authentication.Google;
-
+using UserProfileAPI.Data;
 var builder = WebApplication.CreateBuilder(args);
-var services = builder.Services;
-var configuration = builder.Configuration;
+
+
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddDbContext<ApiContext>
+    (opt => opt.UseInMemoryDatabase("BookingDb"));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddRazorPages();
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseMigrationsEndPoint();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
-else
-{
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-// Adding the Authentication services to the program
-services.AddAuthentication().AddGoogle(googleOptions =>
-    {
-        googleOptions.ClientId = configuration["Authentication:Google:ClientId"];
-        googleOptions.ClientSecret = configuration["Authentication:Google:ClientSecret"];
-    });
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapControllers();
 
 app.Run();
