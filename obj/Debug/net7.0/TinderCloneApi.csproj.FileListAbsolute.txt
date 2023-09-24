@@ -31,3 +31,16 @@ D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\refint\TinderCloneApi.dll
 D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\TinderCloneApi.pdb
 D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\TinderCloneApi.genruntimeconfig.cache
 D:\projects\interview\TinderCloneApi\obj\Debug\net7.0\ref\TinderCloneApi.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\AWSSDK.Core.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\DnsClient.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\MongoDB.Bson.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\MongoDB.Driver.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\SharpCompress.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\Snappier.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\ZstdSharp.dll
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+D:\projects\interview\TinderCloneApi\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll

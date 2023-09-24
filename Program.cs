@@ -11,7 +11,7 @@ builder.Services.Configure<UserStoreDatabaseSettings>(
     builder.Configuration.GetSection("UserStoreDatabase")
 );
 
-builder.Services.AddSingleton<UsersServices>();
+builder.Services.AddSingleton<UsersService>();
 
 
 builder.Services.AddControllers();

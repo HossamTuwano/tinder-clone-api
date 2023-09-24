@@ -14,6 +14,8 @@ public class UsersContoller : ControllerBase
     public UsersContoller(UsersService usersService) => _usersService = usersService;
 
     [HttpGet]
+
+
     public async Task<List<User>> Get() => await _usersService.GetAsync();
 
     [HttpPost]
