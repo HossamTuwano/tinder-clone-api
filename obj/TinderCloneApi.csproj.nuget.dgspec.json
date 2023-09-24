@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {}
+    "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {}
   },
   "projects": {
-    "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {
+    "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
+        "projectUniqueName": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
         "projectName": "TinderCloneApi",
-        "projectPath": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
+        "projectPath": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
         "packagesPath": "C:\\Users\\Hossam\\.nuget\\packages\\",
-        "outputPath": "d:\\projects\\interview\\TinderCloneApi\\obj\\",
+        "outputPath": "D:\\projects\\interview\\TinderCloneApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
