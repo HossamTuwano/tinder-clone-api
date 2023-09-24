@@ -1,10 +1,14 @@
+using UserProfileApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
 
 // Add services to the container.
 
-
+builder.Services.Configure<UserProfileDatabaseSettings>(
+    builder.Configuration.GetSection("UserProfileDatabase")
+);
 
 
 builder.Services.AddControllers();
