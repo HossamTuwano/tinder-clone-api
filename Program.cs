@@ -1,4 +1,5 @@
 using UserStoreApi.Models;
+using UserStoreApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<UserStoreDatabaseSettings>(
     builder.Configuration.GetSection("UserStoreDatabase")
 );
+
+builder.Services.AddSingleton<UsersServices>();
 
 
 builder.Services.AddControllers();
