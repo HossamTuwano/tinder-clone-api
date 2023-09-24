@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {}
+    "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {}
   },
   "projects": {
-    "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {
+    "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
+        "projectUniqueName": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
         "projectName": "TinderCloneApi",
-        "projectPath": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
+        "projectPath": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
         "packagesPath": "C:\\Users\\Hossam\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\interview\\TinderCloneApi\\obj\\",
+        "outputPath": "d:\\projects\\interview\\TinderCloneApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
