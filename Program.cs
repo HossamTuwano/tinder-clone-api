@@ -1,4 +1,4 @@
-using UserProfileApi.Models;
+using UserStoreApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,8 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.Configure<UserProfileDatabaseSettings>(
-    builder.Configuration.GetSection("UserProfileDatabase")
+builder.Services.Configure<UserStoreDatabaseSettings>(
+    builder.Configuration.GetSection("UserStoreDatabase")
 );
 
 

@@ -1,10 +1,10 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace UserProfileApi.Models;
+namespace UserStoreApi.Models;
 
 
-    public class UserProfile {
+    public class User {
 
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

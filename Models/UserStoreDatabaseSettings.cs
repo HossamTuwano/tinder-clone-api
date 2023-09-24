@@ -1,6 +1,6 @@
-namespace UserProfileApi.Models;
+namespace UserStoreApi.Models;
 
-public class UserProfileDatabaseSettings {
+public class UserStoreDatabaseSettings {
     public string ConnectionString {get ; set ;} = null! ;
     public string DatabaseName {get; set;} = null! ;
     public string UsersCollectionName {get; set;} = null! ;
