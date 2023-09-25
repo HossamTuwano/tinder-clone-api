@@ -1,5 +1,6 @@
 using UserStoreApi.Models;
 using UserStoreApi.Services;
+using Microsoft.AspNetCore.Authentication.Google;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +24,11 @@ builder.Services.Configure<UserStoreDatabaseSettings>(
 builder.Services.AddSingleton<UsersService>();
 
 // adding google aut service 
-builder.Services.AddAuthentication().AddGoogle(googleOptions => {googleOptions.ClientId = clientId; googleOptions.ClientSecret = clientSecret;});
+builder.Services.AddAuthentication().AddGoogle(googleOptions => 
+    {
+        googleOptions.ClientId = clientId;
+        googleOptions.ClientSecret = clientSecret;
+    });
 
 
 builder.Services.AddControllers();

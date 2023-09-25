@@ -1279,11 +1279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
+      "projectUniqueName": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
       "projectName": "TinderCloneApi",
-      "projectPath": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
+      "projectPath": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
       "packagesPath": "C:\\Users\\Hossam\\.nuget\\packages\\",
-      "outputPath": "d:\\projects\\interview\\TinderCloneApi\\obj\\",
+      "outputPath": "D:\\projects\\interview\\TinderCloneApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1349,13 +1349,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file d:\\projects\\interview\\TinderCloneApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
