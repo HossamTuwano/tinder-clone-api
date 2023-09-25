@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CneXLGPEXgpPN/7qWaNIr0BZ6cJ1olJ2F0ub4mf6Lc85ea/BGDxLTl4ypQRNpOU+H1eZuj8DWoNCqmBXjLfpsQ==",
+  "dgSpecHash": "Vt2aUGJ3aNXGGcQLcXoHESQkWKyXWDOiZbW6i0jQljP7WU9v/1kk1VewSvL5yHb5QciIuVp7wiBMBfcknHKopQ==",
   "success": true,
   "projectFilePath": "d:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hossam\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.11\\microsoft.aspnetcore.authentication.google.7.0.11.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
@@ -30,5 +31,12 @@
     "C:\\Users\\Hossam\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file d:\\projects\\interview\\TinderCloneApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
