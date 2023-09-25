@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rb0wr4V9Bz+7F0dSECXM8sDaXNFDwsoR9a4DMiS6P46Gvf3Zue71ZbSeLChCdo5kX+vRPV03gKFDeENfF9n4sQ==",
+  "dgSpecHash": "ohL59MPe9A1fuDyc0+R8OqhWKpZkVGajgvlp0lu3OD66ti65dtQN7C3QIZ1F4pvJ+pzzAPT5KdtMVgXHvpVR2g==",
   "success": true,
   "projectFilePath": "D:\\projects\\interview\\TinderCloneApi\\TinderCloneApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hossam\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.11\\microsoft.aspnetcore.authentication.google.7.0.11.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Hossam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
