@@ -24,11 +24,11 @@ builder.Services.Configure<UserStoreDatabaseSettings>(
 builder.Services.AddSingleton<UsersService>();
 
 // adding google aut service 
-builder.Services.AddAuthentication().AddGoogle(googleOptions => 
-    {
-        googleOptions.ClientId = clientId;
-        googleOptions.ClientSecret = clientSecret;
-    });
+// builder.Services.AddAuthentication().AddGoogle(googleOptions => 
+//     {
+//         googleOptions.ClientId = clientId;
+//         googleOptions.ClientSecret = clientSecret;
+//     });
 
 
 builder.Services.AddControllers();
@@ -38,7 +38,6 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.MapGet("/", () => clientSecret);
 
 
 // Configure the HTTP request pipeline.
